@@ -6,12 +6,13 @@
     <title>Math Expretion</title>
     <style>
         body{
-            margin: 0;
-            padding: 0;
+            /* margin: 0; */
+            /* padding: 0; */
             background-color: darkgray;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
         }
-        h1,h3{
-        text-align: center;}
         button{
             margin: 20px 250px;
             width: 80px;
@@ -20,23 +21,48 @@
             border-radius: 5px;
             border: none;
         }
+        button:hover{
+            background-color: white;
+        }
         button a{
             color: black;
             text-decoration: none;
+            font-size: 18px;
         }
+        h1{
+            margin-top: 20px;
+            font-size: 50px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        
     </style>
 </head>
 <body>
+
+    <script>
+        var name = prompt("Write your name here")
+
+        document.write("Hello " + name)
+
+
+
+    </script>
+
     <div>
-        <h1>Welcome to Math Expretion</h1>
+        <h1>Welcome to Math Expressions</h1>
         <br>
         <br>
 
         <h3>What Do you want??</h3>
 
-        <button><a href="add.html">Add</a></button>
-        <button><a href="min.html">Sub</a></button>
-        <button><a href="mul.html">Mul</a></button>
-        <button><a href="div.html">Div</a></button>
+        <button><a href="add.html" target="_blank">Add</a></button>
+        <button><a href="min.html" target="_blank">Sub</a></button>
+        <button><a href="mul.html" target="_blank">Mul</a></button>
+        <button><a href="div.html" target="_blank">Div</a></button>
+
+</div>
+        
 </body>
 </html>

@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sub</title>
+    <title>add</title>
+
+    <style>
+        body{
+            background-color: cadetblue;
+            font-size:50px;
+            text-align: center;
+            margin-top: 200px;
+        }
+        document.write{
+            text-align: center;
+            font-size: larger;
+        
+        }
+
+        
+    </style>
 </head>
 <body>
     
 
 <script>
 
-    var num1 = prompt("First Number");
-    var userInput = num1
+    var num1 = +prompt("First Number");
+    
 
-    var num2 = prompt("Second Number")
-    var userInput2 = num2
+    var num2 = +prompt("Second Number")
+    
 
 
-    var result = ("userInput" + "userInput2");
+    var result = ( num1 + num2 );
 
     console.log(result);
+    // document.write('the rseult of ${num1} and ${num2} is ${result}')
+    document.write("The rseult of " + num1 + " plus " + num2 + " is " + result)
+    // document.write("your answer is " + result)
+
 
 </script>
 
